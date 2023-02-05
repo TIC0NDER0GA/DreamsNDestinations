@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517984099770",
+    "project_id": "dreamsndestinations-9927f",
+    "storage_bucket": "dreamsndestinations-9927f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517984099770:android:0b2ab99b2b834588d8d183",
+        "android_client_info": {
+          "package_name": "uga.edu.cs.dreamsndestinations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517984099770-noi99ur4u8g2ooa6mkomarmkgh2ath4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgKP3pA7KI2UZEMGkEGJHZc0HseV2nE3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517984099770-noi99ur4u8g2ooa6mkomarmkgh2ath4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

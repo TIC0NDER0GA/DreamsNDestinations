@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".postCreation">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_dashboard_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="download" />
+
+            <Button
+                android:id="@+id/rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="rotate" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="upload" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/postTitle"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="Title"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/postText"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Body Text"
+            android:gravity="top|left"
+            android:background="@null"/>
+
+    </LinearLayout>
+</ScrollView>
